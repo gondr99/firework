@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>불꽃 놀이</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Particle.js"></script>
+    <script src="App.js"></script>
+    <script>
+        window.onload = function(){
+            let app = new App("#fireWorks");
+        }
+    </script>
 </head>
-<body>
-    
+<body class="center">
+    <div class="container">
+        <canvas id="fireWorks">
+
+        </canvas>
+    </div>
 </body>
 </html>
